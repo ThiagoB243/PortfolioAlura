@@ -1,0 +1,92 @@
+body{
+background-color: #1E6473;
+  font-family: 'Rambla';
+}
+
+.container{
+  background: radial-gradient(76.18% 99.29% at 21.59% 18.7%, rgba(5, 0, 255, 0.8) 5.33%, rgba(0, 0, 0, 0) 100%),
+linear-gradient(0deg, #00A3E9, #00A3E9);
+  margin: 60px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px rgba(66, 0, 255, 0.25);
+  padding:20px;
+}
+
+.perfil{
+  display:flex;
+  align-items: center;
+}
+
+.perfil-foto{
+  border-radius: 300px;
+  max-height: 150px;
+}
+
+.titulo{
+  margin-left: 16px;
+}
+
+.titulo h1{
+  font-weight: 700;
+ font-size: 36px;
+}
+
+.titulo h3{
+  font-weight: 700;
+ font-size: 24px;
+}
+
+.lista{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #00FFE0;
+  padding: 8px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 22px;
+  background: radial-gradient(69.77% 258.26% at 87.85% 26.63%, rgba(255, 184, 0, 0.5) 0%, rgba(13, 142, 26, 0) 100%),
+linear-gradient(0deg, rgba(143, 4, 4, 0.62), rgba(143, 4, 4, 0.62));
+ margin-top:32px;
+  list-style: none;
+}
+
+.lista-item a{
+  color: #00FFE0;
+  text-decoration: none;
+}
+
+.lista-item{
+  list-style-type:none;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 48px;
+}
+
+.tema button{
+  border-radius: 20px;
+  color: black;
+  background-color: white;
+  margin-bottom: 125px;
+  margin-right: 20px;
+  align-self: flex-end;
+  font-weight: 400;
+}
+.other{
+  background: white;
+  
+}
+.other .container{
+  background: black;
+  color: white;
+}
+
+.other .container .lista{
+  background: white;
+  color: black;
+}
+
+.other .container .tema button {
+  color: #FFB800;
+  background-color: #00A3E9;
+}
